@@ -15,7 +15,10 @@ int main() {
           break;
         case '-':
           printf("%.1lf - %.1lf = %.1lf", x, y, x - y);
-          break;         
+          break;
+        case '*':
+          printf("%.1lf * %.1lf = %.1lf", x, y, x * y);
+          break;
     }
     
     return 0;
